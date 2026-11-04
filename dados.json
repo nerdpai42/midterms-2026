@@ -1,12 +1,12 @@
 {
- "updatedAt": "2026-11-04T19:09:00Z",
+ "updatedAt": "2026-11-04T19:42:00Z",
  "source": "https://www.nbcnews.com/politics/2026-elections/house-results",
  "sourceName": "NBC News",
  "note": "Totais de cada estado são preliminares",
  "house": {
-  "D": 240,
+  "D": 242,
   "R": 146,
-  "uncalled": 49
+  "uncalled": 47
  },
  "senate": {
   "D": 54,
@@ -35,9 +35,9 @@
    "u": 0
   },
   "CA": {
-   "D": 42,
+   "D": 44,
    "R": 2,
-   "u": 8
+   "u": 6
   },
   "CO": {
    "D": 5,

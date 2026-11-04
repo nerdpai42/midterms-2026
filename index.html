@@ -225,8 +225,7 @@ function render(){
   if(DATA){
     $("dot").className="dot live";
     const t=fmtTime(DATA.updatedAt);
-    const next=DATA.updatedAt?new Date(new Date(DATA.updatedAt).getTime()+30*60000):null;
-    $("status").textContent=`Atualizado ${t}`+(next?` · próxima por volta de ${next.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"})}`:"");
+    $("status").textContent=`Resultados de ${t} · atualiza a cada 30 min`;
     if(DATA.source){$("src").innerHTML="";$("src").append("Fonte: ");const a=document.createElement("a");a.href=DATA.source;a.target="_blank";a.rel="noopener";a.textContent=DATA.sourceName||"ver fonte";$("src").append(a);if(DATA.note)$("src").append(". "+DATA.note);}
   }
 }
